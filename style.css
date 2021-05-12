@@ -1,0 +1,38 @@
+body {
+  background: sandybrown;
+}
+.square1 {
+  background: peru;
+  border-radius: 50px;
+  height: 300px;
+  margin: 200px;
+  position: absolute;
+  left: 300px;
+  top: 5px;
+  transition: transform 0.5s;
+  width: 300px;
+  border: 2px solid sienna;
+}
+
+.square2 {
+  background: url(https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJlYWNofGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+background-size: cover;
+background-position: center;
+  border-radius: 50px;
+  height: 300px;
+  margin: 200px;
+  position: absolute;
+  left: 300px;
+  top: 5px;
+  transition: transform 0.5s;
+  position: absolute;
+  width: 300px;
+  border: 2px solid sienna;
+}
+div {
+transition: transform 1s;
+}
+
+div:hover {
+transform: translate(40px, 40px);
+}
